@@ -95,6 +95,22 @@ Devise.setup do |config|
   # Setup a pepper to generate the encrypted password.
   # config.pepper = "c357c9a160bfc03d6505ff5c91dce3147f353d3b8b90ec628599efe41107382e4caa7e29c30d1e6cbd7f08fe2df2f96ef801bde9c9c9b0c654a2f62b21a8233d"
 
+  # ==> Configuration for :sms_activable
+  # The period the generated sms token is valid, after
+  # this period, the user won't be able to activate.
+  # config.sms_confirm_within = 0.days
+
+  # The keys searched for confirmation values.
+  # config.sms_confirmation_keys = [:email]
+  
+  # Your SmsSender class. The provided one uses 
+  # moonshado-sms gem so install it and configure
+  # if you want to use it.
+  # A simple instance of the class has been copied in your lib folder
+  # For further informations on using and configuring moonshado-sms gem check
+  # https://github.com/moonshado/moonshado-sms
+  # config.sms_sender = "Devise::SmsSender"
+  
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
   # confirming his account. For instance, if set to 2.days, the user will be
