@@ -7,7 +7,7 @@ gem 'rails'
 
 gem 'mysql2'
 gem 'devise'
-gem 'devise_sms_activable', git: 'https://github.com/giano/devise_sms_activable.git'
+gem 'devise_sms_activable', git: 'https://github.com/sirsupertramp/devise_sms_activable.git'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/giano/devise_sms_activable.git
-  revision: 313507bc1433271fbf2e5c359dbe682882e667ed
+  remote: https://github.com/sirsupertramp/devise_sms_activable.git
+  revision: 0bcd52ac497f9f030cc75e7523aa864c0582cfc3
   specs:
     devise_sms_activable (0.0.9)
       devise (>= 1.1.0)
